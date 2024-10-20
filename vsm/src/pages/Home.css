@@ -1,0 +1,63 @@
+/* src/Home.css */
+.container {
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  flex-direction: column; /* Coloca os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  margin-top: 20px; /* Adiciona espaço acima */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-logout {
+  align-self: flex-start; /* Alinha o botão à margem esquerda */
+  padding: 10px 20px;
+  background-color: #007bff; /* Cor do botão */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  margin-bottom: 20px; /* Espaço abaixo do botão */
+}
+
+.title {
+  text-align: center; /* Centraliza o texto */
+}
+
+.btn-style {
+  position: 'absolute';
+  top: '10px';
+  left: '10px';
+  padding: '10px 20px';
+  background-color: '#007bff';
+  color: 'white';
+  border: 'none';
+  border-radius: '5px';
+  cursor: 'pointer';
+}
